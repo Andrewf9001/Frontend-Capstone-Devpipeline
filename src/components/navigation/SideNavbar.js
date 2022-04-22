@@ -6,8 +6,9 @@ const SideNavBar = () => {
   return (
     <div className="sidebar-container">
       <div className="sidebar-links">
-        <NavLink to="/dashboard">Dashboard</NavLink>
         <NavLink to="/about">About</NavLink>
+        <NavLink to="/dashboard">Dashboard</NavLink>
+        <NavLink to="/logout">Logout</NavLink>
       </div>
 
       <Weather />
