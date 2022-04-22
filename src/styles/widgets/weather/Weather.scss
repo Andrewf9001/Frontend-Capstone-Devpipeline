@@ -1,0 +1,36 @@
+.weather-container {
+  height: 30%;
+
+  .zipcode-wrapper form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    input {
+      color: $off-white;
+      background-color: black;
+      border: 1px solid $dark-red;
+      border-radius: 5px;
+      outline: none;
+      padding: 5px;
+      text-align: center;
+    }
+
+    button {
+      color: $off-white;
+      background-color: black;
+      outline: none;
+      border: 1px solid $dark-red;
+      border-radius: 5px;
+      padding: 5px 10px;
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $dark-red;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.box-shadow-container {
+  @include flex-center-column();
+  margin-top: 3em;
+
+  .preview-box-wrapper {
+    height: 150px;
+    width: 200px;
+    margin-bottom: 80px;
+    background-color: #fff;
+
+    h3 {
+      color: black;
+      text-align: center;
+    }
+  }
+
+  .sliders-wrapper {
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 35%;
+    margin-bottom: 20px;
+
+    .range-wrapper {
+      display: flex;
+      justify-content: space-between;
+
+      input {
+        width: 100%;
+      }
+
+      .left-label {
+        width: 130px;
+      }
+
+      .right-label {
+        text-align: right;
+        width: 50px;
+      }
+    }
+  }
+
+  .inset-rgb-slider-wrapper {
+    @include flex-center-column();
+  }
+
+  .copy-input {
+    font-size: 1.2em;
+    position: absolute;
+    bottom: 6%;
+  }
+}

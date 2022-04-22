@@ -1,0 +1,16 @@
+@import "./common/variables.scss";
+@import "./common/mixins.scss";
+@import "./common/common.scss";
+
+@import "./Navigation.scss";
+@import "./pages/Dashboard.scss";
+@import "./pages/About.scss";
+
+@import "./widgets/boxShadow/BoxShadow.scss";
+@import "./widgets/boxShadow/RgbSlider.scss";
+@import "./widgets/PhotoTransformer.scss";
+@import "./widgets/RockPaperScissors.scss";
+@import "./widgets/BleachImageGallery.scss";
+@import "./widgets/weather/Weather.scss";
+@import "./widgets/weather/Day.scss";
+@import "./widgets/SwapiSearch.scss";

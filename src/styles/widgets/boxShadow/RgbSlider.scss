@@ -1,0 +1,8 @@
+.rgb-slider-container {
+  @include flex-center-column();
+  margin-top: 10px;
+
+  .rgb-inputs {
+    margin-top: 15px;
+  }
+}

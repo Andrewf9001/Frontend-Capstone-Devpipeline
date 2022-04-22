@@ -1,0 +1,25 @@
+.sidebar-container {
+  background-color: black;
+  border-right: 1px solid $dark-red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100%;
+
+  .sidebar-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 4em;
+
+    a {
+      font-size: 1.3em;
+    }
+
+    .active {
+      color: #ff0000;
+      text-decoration: underline;
+    }
+  }
+}

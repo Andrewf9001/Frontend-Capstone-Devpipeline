@@ -1,0 +1,44 @@
+.swapi-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+
+  .swapi-select-wrapper {
+    select {
+      color: $off-white;
+      background-color: black;
+      border: 1px solid $dark-red;
+      border-radius: 5px;
+      margin: 0 10px;
+      padding: 5px 10px;
+      outline: none;
+    }
+  }
+
+  input {
+    color: $off-white;
+    background-color: black;
+    border: 1px solid $dark-red;
+    border-radius: 5px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    outline: none;
+  }
+
+  .json-wrapper {
+    width: 90%;
+    position: relative;
+    top: 5em;
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+      width: 0px;
+    }
+
+    h1 {
+      font-size: 1.2em;
+    }
+  }
+}

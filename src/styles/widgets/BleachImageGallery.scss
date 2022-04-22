@@ -1,0 +1,29 @@
+.image-gallery-container {
+  @include flex-center();
+  width: 80%;
+  margin-top: 8%;
+
+  .image-wrapper {
+    img {
+      height: 500px;
+      width: 800px;
+    }
+  }
+
+  .btn-wrapper {
+    @include flex-center-column();
+    color: $off-white;
+    gap: 12px;
+    position: absolute;
+    right: 8%;
+    width: 30px;
+
+    .image-page {
+      font-size: 1.5em;
+    }
+
+    svg {
+      font-size: 1.5em;
+    }
+  }
+}
